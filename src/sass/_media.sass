@@ -1,0 +1,345 @@
+@media (max-width: 1200px)
+	.container
+		max-width: 1000px
+	.services
+		&__item
+			width: 300px
+			height: 310px
+			&-title
+				left: 20px
+	.about
+		&__descr
+			max-width: 380px
+	.contacts
+		&__descr
+			font-size: 16px
+			line-height: 22px
+		&__info
+			&__item-text
+				font-size: 18px
+	.form
+		input, textarea
+			width: 200px
+		textarea
+			resize: none
+			height: 130px
+			width: 450px
+
+@media (max-width: 991px)
+	.container
+		max-width: 800px
+	.title
+		font-size: 42px
+	.header
+		&__block
+			max-width: 75%
+		&__info
+			&__item
+				display: flex
+				gap: 5px		
+			&__item-title
+				font-size: 12px	
+	.services
+		padding: 100px 0 100px 0
+		&__inner
+			margin-top: 70px
+			&:last-child
+				margin-top: 20px
+		&__item
+			width: 230px
+			height: 240px
+			&-title
+				font-size: 18px
+	.about
+		padding: 80px 0 80px 0
+		&__descr
+			max-width: 330px
+			font-size: 15px
+			line-height: 22px
+		&__items__inner
+			gap: 20px
+			&:first-child
+				margin-bottom: 20px
+		&__item
+			width: 180px
+			height: 180px
+			padding-left: 20px
+			&-amount
+				font-size: 36px
+			&-descr
+				font-size: 14px
+	.slider, .rewiews__slider
+		.slick-arrow
+			top: 160px
+		.slick-dots
+			margin-top: 100px
+	.rewiews
+		padding: 100px 0
+		&__slider__item
+			padding: 25px 50px 0px 50px
+		&__slider-text
+			font-size: 17px
+		&__slider__block
+			bottom: 20px
+		.rewiews__slider
+			.slick-arrow
+				top: 380px
+	.contacts
+		height: 550px
+		padding: 100px 0
+		&__descr
+			font-size: 15px
+			line-height: 18px
+		&__info
+			gap: 20px
+			&__item
+				gap: 10px
+			&__item-text
+				font-size: 16px
+	.form
+		&__item-title
+			font-size: 15px
+			margin-bottom: 12px
+		input, textarea
+			width: 135px
+			height: 25px
+			font-size: 18px
+		textarea
+			resize: none
+			height: 115px
+			width: 300px
+		
+@media (max-width: 767px)
+	.container
+		max-width: 600px
+	.title
+		text-align: center
+		font-size: 36px
+	.subtitle
+		text-align: center
+		margin-bottom: 30px
+	.button
+		margin: 80px auto 0
+		display: block
+	.header
+		&__block
+			position: absolute
+			width: 40%
+			height: 200%
+			right: -100%
+			z-index: 100
+			background-color: #fff
+			position: fixed
+			transition: .5s all
+			&_active
+				right: 0
+		&__info
+			display: block
+			margin-top: 80px
+			padding-left: 15%
+			&__item
+				margin-bottom: 10px
+				&:last-child
+					margin-bottom: 0
+			&__item-title
+				font-size: 14px
+	.menu
+		margin-top: 50px
+		padding-left: 15%
+		&__list
+			display: block
+			&-item
+				margin-bottom: 10px
+				&:last-child
+					margin-bottom: 0
+			&-link
+				font-size: 15px		
+	.hamburger, .close
+		display: block
+	.services
+		&__item
+			width: 170px
+			height: 180px
+			&-title
+				left: 10px
+				bottom: 25px
+				font-size: 13px
+	.about
+		&__inner
+			display: block
+		&__title
+			display: none
+		&__title_adaptive
+			display: block
+		&__items__inner
+			margin-top: 50px
+			justify-content: center
+		&__descr
+			max-width: 400px
+			text-align: center
+			margin: 55px auto 0
+			font-size: 16px
+	.slider, .rewiews__slider
+		.slick-arrow
+			top: 135px
+	.rewiews
+		&__slider__item
+			padding: 15px 30px 0px 30px
+		&__slider-text
+			font-size: 15px
+	.contacts
+		position: relative
+		height: 850px
+		&__inner
+			display: block
+		&__descr
+			text-align: center
+			margin-top: 30px
+			font-size: 16px
+			line-height: 24px
+		&__info
+			margin-top: 60px
+			gap: 50px
+			justify-content: center
+		.form
+			margin-top: 50px
+			&__inner
+				justify-content: center
+			&__item-title
+				font-size: 15px
+				margin-bottom: 12px
+			input, textarea
+				width: 200px
+				height: 25px
+				font-size: 18px
+			textarea
+				resize: none
+				height: 115px
+				width: 430px
+			.button__submit
+				position: absolute
+				bottom: 100px
+				left: 50%
+				transform: translateX(-50%)
+	.scroll_top
+		bottom: 80px
+		right: 50px
+				
+
+@media (max-width: 575px)
+	.title
+		font-size: 32px
+	.header
+		&__block
+			width: 50%
+	.promo__title
+		line-height: 48px
+	.services
+		&__inner
+			display: block
+			&:last-child
+				margin-top: 0
+		&__item
+			margin: 0 auto
+			width: 350px
+			height: 360px
+			margin-bottom: 40px
+			&_last
+				margin-bottom: 0
+			&-title
+				left: 30px
+				bottom: 45px
+				font-size: 24px
+	.slider, .rewiews__slider
+		.slick-arrow
+			top: 120px
+	.rewiews
+		&__slider__item
+			padding: 10px 20px 0px 20px
+		&__slider-text
+			font-size: 14px
+
+@media (max-width: 480px)
+	.title
+		font-size: 28px
+	.subtitle
+		font-size: 22px
+	.header
+		&__block
+			width: 60%
+	.header__info, .menu, .close
+		padding-left: 10%
+	.services
+		&__item
+			width: 280px
+			height: 290px
+	.about
+		&__item
+			width: 130px
+			height: 130px
+			padding-left: 15px
+			&-amount
+				margin-top: 10px
+				font-size: 28px
+				&_white
+					color: #fff
+			&-descr
+				margin-top: 20px
+				font-size: 11px
+	.slider, .rewiews__slider
+		margin-top: 60px
+		.slick-arrow
+			top: 148px
+			width: 40px
+			height: 40px
+		.slick-prev
+			left: 0
+		.slick-next
+			right: 0
+		.slick-dots
+			margin-top: 80px
+			justify-content: center
+	.rewiews
+		&__slider__item
+			height: 350px
+			padding: 10px 20px 0px 20px
+		&__slider-text
+			font-size: 12px
+		&__slider__block
+			gap: 20px
+			bottom: 20px
+		&__slider__item
+			&-title
+				font-size: 14px
+			&-subtitle
+				margin-top: 10px
+				font-size: 12px
+			&-img
+				width: 50px
+				height: 50px
+		.rewiews__slider
+			.slick-arrow
+				top: 410px
+	.contacts
+		height: 950px
+		&__info
+			gap: 0
+			justify-content: space-between
+			&__item-text
+				font-size: 14px
+		.form
+			&__inner
+				display: block
+				&:nth-child(2)
+					margin-top: 0				
+			input, textarea
+				width: 100%
+				margin-bottom: 40px
+			textarea
+				margin-bottom: 0
+	.footer
+		&__text
+			font-size: 13px
+	.scroll_top
+		right: 35px
+		bottom: 40px

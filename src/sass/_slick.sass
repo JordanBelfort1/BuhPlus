@@ -1,0 +1,45 @@
+.slick-track
+    display: flex
+.slick-list
+    overflow: hidden
+.slider, .rewiews__slider
+    margin-top: 80px
+    position: relative
+    .slick-arrow
+        position: absolute
+        top: 215px 
+        z-index: 1
+        font-size: 0
+        width: 60px
+        height: 60px
+        cursor: pointer
+        &:hover
+            background-color: #005FA3
+        &:focus
+            background-color: #005FA3
+    .slick-prev
+        right: 60px
+        background: url('../img/arrows/prev.png') 0 0/100% no-repeat
+    .slick-next
+        right: 0
+        background: url('../img/arrows/next.png') 0 0/100% no-repeat
+    .slick-dots
+        display: flex
+        margin-top: 125px
+        li
+            list-style-type: none
+            margin: 0 10px
+            button
+                font-size: 0
+                width: 10px
+                height: 10px
+                background-color: #005FA3
+                opacity: .4
+                border-radius: 50%
+        .slick-active
+            button
+                opacity: 1 
+
+.rewiews__slider
+    .slick-arrow
+        top: 405px

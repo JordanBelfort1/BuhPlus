@@ -4,10 +4,12 @@
   "description": "Gulp сборка",
   "main": "gulpfile.js",
   "type": "module",
+  "homepage": "https://JordanBelfort1.github.io",
   "scripts": {
     "dev": "gulp",
     "build": "gulp build --build",
-    "zip": "gulp deployZIP --build"
+    "zip": "gulp deployZIP --build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "license": "ISC",
@@ -16,6 +18,7 @@
     "bootstrap": "^5.2.2",
     "browser-sync": "^2.27.10",
     "del": "^6.1.1",
+    "gh-pages": "^5.0.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
